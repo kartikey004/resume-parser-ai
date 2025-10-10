@@ -924,9 +924,8 @@ submission/
 - **Technical Support**: Direct access to organizers for critical issues
 
 ### Contact Information
-- **Technical Questions**: tech-support@hackathon.com
-- **Submission Issues**: submissions@hackathon.com
-- **General Inquiries**: info@hackathon.com
+For any inquiries or support, please reach out to `ai-hackathon2025@geminisolutions.com`
+
 
 ---
 
