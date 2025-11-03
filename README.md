@@ -3,7 +3,7 @@
 
 ### Document Information
 - **Version**: 1.0
-- **Date**: September 10, 2025
+- **Date**: November 04, 2025
 - **Difficulty Level**: Intermediate
 - **Duration**: 48 hours
 
@@ -34,14 +34,6 @@ Develop an AI-powered resume parser that can intelligently extract, structure, a
 - Create RESTful APIs that integrate seamlessly with Applicant Tracking Systems (ATS)
 - Demonstrate scalability and performance optimization
 - Ensure data privacy and security compliance
-
-### Innovation Focus Areas
-- Advanced AI/ML techniques for document processing
-- Context-aware information extraction
-- Multi-format support (PDF, DOCX, TXT, images)
-- Real-time processing capabilities
-- Integration with modern HR tech stacks
-
 ---
 
 ## Challenge Description
@@ -66,7 +58,7 @@ Participants must develop an intelligent resume parser that:
 
 ## Technical Requirements
 
-### Core Technology Stack
+### Technology Stack (For Reference Only)
 **Required Technologies:**
 - **AI/ML Framework**: Choose from TensorFlow, PyTorch, Hugging Face Transformers, or OpenAI API
 - **Backend Framework**: Python (FastAPI, Django, Flask) or Node.js (Express, NestJS)
@@ -566,7 +558,7 @@ Parameters:
 
 ---
 
-## Data Models
+## Data Models (For Reference Only)
 
 ### Database Schema Requirements
 
@@ -769,15 +761,6 @@ CREATE TABLE resume_job_matches (
    - File upload security validation
    - API authentication testing
    - Data privacy compliance
-
-#### Test Data Sets
-- **Standard Test Resumes**: 50 diverse resume samples across formats
-- **Job Descriptions**: 25 varied job descriptions for matching tests
-- **Edge Cases**: Unusual formats, corrupted files, missing information
-- **Performance Dataset**: 100 resumes for concurrent testing
-- **Security Dataset**: Malicious file attempts, oversized files
-- **Matching Dataset**: Resume-job pairs with expected relevancy scores
-
 ---
 
 ## Submission Guidelines
@@ -786,27 +769,21 @@ CREATE TABLE resume_job_matches (
 
 #### 1. Source Code and Documentation
 - [ ] Complete source code in GitHub repository
-- [ ] README.md with setup instructions
-- [ ] API documentation (OpenAPI specification)
+- [ ] README.md with setup instructions and link to Presentation slides (max 5 slides)
+- [ ] setup.sh (bash script to setup the complete project after git clone on local machine)
 - [ ] Architecture diagram and design decisions
-- [ ] Database schema and migration scripts
+- [ ] Database schema
 
 #### 2. Deployment Package
 - [ ] Docker containerization with docker-compose.yml
 - [ ] Environment configuration files
 - [ ] Deployment scripts and instructions
-- [ ] Live API endpoint URL for testing
-
-#### 3. Demo Materials
-- [ ] 5-minute video demonstration
-- [ ] Presentation slides (max 10 slides)
-- [ ] Test results and performance metrics
-- [ ] Sample API calls and responses
 
 ### Submission Format
 ```
-submission/
+/
 ├── README.md
+├── setup.sh
 ├── docs/
 │   ├── api-specification.yaml
 │   ├── architecture.md
@@ -818,9 +795,6 @@ submission/
 ├── docker/
 │   ├── Dockerfile
 │   └── docker-compose.yml
-├── demo/
-│   ├── presentation.pdf
-│   └── demo-video.mp4
 └── .env.example
 ```
 
@@ -836,7 +810,7 @@ submission/
 
 ### Automated Evaluation Process
 
-#### Phase 1: Automated API Testing (Run continuously during hackathon)
+#### Phase 1: API Testing
 1. **Health Check Tests**: Verify API availability
 2. **Functional Tests**: Test all required endpoints
 3. **Performance Tests**: Measure response times and throughput
@@ -853,22 +827,9 @@ submission/
 1. **Code Quality Review**: Architecture, documentation, best practices
 2. **Innovation Assessment**: Unique features and creative solutions
 3. **Presentation Evaluation**: Demo quality and problem explanation
-
-### Testing Tools and Automation
-- **API Testing**: Newman (Postman CLI) for automated API testing
-- **Performance Testing**: Artillery.io or Apache JMeter
-- **Security Testing**: OWASP ZAP for security vulnerability scanning
-- **Code Quality**: SonarQube for code quality analysis
-
-### Continuous Evaluation Dashboard
-- Real-time leaderboard showing API availability and performance
-- Test results updated every 30 minutes
-- Performance metrics and accuracy scores
-- Submission status tracking
-
 ---
 
-## Resources and References
+## Resources and References for reading
 
 ### AI/ML Resources
 - **OpenAI API Documentation**: https://platform.openai.com/docs
@@ -916,16 +877,13 @@ submission/
 ---
 
 ## Support and Communication
+Email:  `ai-hackathon2025@geminisolutions.com`
 
 ### During the Hackathon
-- **Discord Server**: Real-time chat and support
-- **FAQ Document**: Continuously updated based on questions
-- **Office Hours**: Scheduled mentor availability
-- **Technical Support**: Direct access to organizers for critical issues
+- **Discord Channel**: [Real-time chat and support](https://discord.gg/WZvBbBZa)
 
 ### Contact Information
 For any inquiries or support, please reach out to `ai-hackathon2025@geminisolutions.com`
-
 
 ---
 
