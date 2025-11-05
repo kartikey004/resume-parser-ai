@@ -1,0 +1,58 @@
+John Doe
+
+123 Main Street, Anytown, USA | (555) 123-4567 | john.doe@email.com | linkedin.com/in/johndoe
+
+---
+Professional Summary
+---
+
+Highly motivated and experienced Senior Software Engineer with over 8 years of experience in designing, developing, and deploying scalable backend systems. Proven expertise in Python, Go, and cloud-native technologies, particularly AWS and Kubernetes. Seeking to leverage strong architectural skills to build resilient and high-performance software.
+
+---
+Work Experience
+---
+
+Senior Software Engineer
+Tech Solutions Inc., San Francisco, CA
+(2020 – Present)
+- Led the design and implementation of a new microservices-based architecture using Python (FastAPI) and Go, resulting in a 40% increase in system performance.
+- Managed a team of 4 junior developers, providing mentorship and code reviews.
+- Deployed and maintained applications on AWS using Kubernetes (EKS), Terraform, and CI/CD pipelines (GitLab CI).
+
+Backend Developer
+Data Innovations, New York, NY
+(2017 – 2020)
+- Developed and maintained data processing pipelines using Python, Kafka, and PostgreSQL.
+- Optimized complex SQL queries, reducing report generation time by 60%.
+- Collaborated with frontend teams to build and support RESTful APIs.
+
+---
+Education
+---
+
+Master of Science in Computer Science
+Georgia Institute of Technology, Atlanta, GA
+(2015 – 2017)
+
+Bachelor of Science in Computer Science
+University of Illinois Urbana-Champaign, Urbana, IL
+(2011 – 2015)
+- Graduated Magna Cum Laude
+
+---
+Skills
+---
+
+- Programming Languages: Python, Go, SQL, JavaScript
+- Frameworks: FastAPI, Flask, Gin
+- Databases: PostgreSQL, Redis, MongoDB
+- DevOps & Cloud: AWS (EKS, S3, EC2, Lambda), Kubernetes, Docker, Terraform, CI/CD
+- Other: Microservices, REST APIs, Kafka, System Design
+
+---
+Certifications
+---
+
+AWS Certified Solutions Architect - Associate
+Amazon Web Services
+(Issued: 2019)

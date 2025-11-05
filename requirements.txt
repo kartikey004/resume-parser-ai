@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+python-multipart  
+celery
+redis
+sqlalchemy
+psycopg2-binary
+pydantic-settings
+pdfplumber
+python-docx
+pytesseract
+pdf2image
+Pillow
+google-generativeai
+pytest
+httpx
