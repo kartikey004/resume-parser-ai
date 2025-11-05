@@ -54,3 +54,53 @@ This project is fully containerized with Docker. All you need is **Docker Deskto
 git clone [https://github.com/tarindersingh-gemini/resume-parser-hackathon.git](https://github.com/tarindersingh-gemini/resume-parser-hackathon.git)
 cd resume-parser-hackathon
 ```
+
+Step 2: Set Up Your Environment
+A setup.sh script is provided to automate the entire setup.
+First, make the script executable:
+
+```bash
+# On macOS/Linux. (On Windows, use 'git bash' or 'wsl' to run .sh files)
+chmod +x setup.sh
+```
+Next, run the script. The first time you run it, it will create your .env file and ask you to add your Google API key.
+```bash
+./setup.sh
+```
+
+### Step 3: Add Your API Key
+
+The setup script successfully created a new configuration file for you. This step is critical to activate the AI features by providing your key.
+
+1.  Open the newly created **`.env`** file in your project root.
+2.  Locate the `GOOGLE_API_KEY` line (it will be blank if you haven't edited it).
+3.  Paste your Google AI Studio API key after the equals sign.
+
+### Content to Verify in your .env file:
+
+```text
+# .env (Example content)
+# ... other variables ...
+
+# AI Service Settings
+GOOGLE_API_KEY=AIzaSy...your-key-here...
+
+# ... other variables ...
+```
+Once you have saved your key in the .env file, you are ready to proceed to the final step (Step 4: Run the Application).
+
+### Step 4: Run the Application
+
+Now that your Google API key is saved in the `.env` file, run the setup script one last time. This command will build the final Docker images (integrating all Python packages and source code) and start the entire service stack (`api`, `worker`, `redis`, `db`).
+
+```bash
+./setup.sh
+```
+### Final Verification:
+
+Once the script finishes and reports "SUCCESS! The AI Resume Parser is running.", your project is fully deployed.
+
+* **API URL (FastAPI):** http://localhost:8000
+* **Interactive Docs (Swagger UI):** http://localhost:8000/docs
+
+You can confirm the application is operational by visiting the Swagger UI and testing the **Health Check** endpoint.
