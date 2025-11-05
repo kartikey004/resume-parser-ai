@@ -51,11 +51,11 @@ This project is fully containerized with Docker. All you need is **Docker Deskto
 ### Step 1: Clone the Repository
 
 ```bash
-git clone [https://github.com/tarindersingh-gemini/resume-parser-hackathon.git](https://github.com/tarindersingh-gemini/resume-parser-hackathon.git)
-cd resume-parser-hackathon
+git clone https://github.com/kartikey004/resume-parser-ai.git
+cd resume-parser-ai
 ```
 
-Step 2: Set Up Your Environment
+### Step 2: Set Up Your Environment
 A setup.sh script is provided to automate the entire setup.
 First, make the script executable:
 
@@ -80,12 +80,13 @@ The setup script successfully created a new configuration file for you. This ste
 
 ```text
 # .env (Example content)
-# ... other variables ...
+POSTGRES_USER=myuser
+POSTGRES_PASSWORD=mypassword
+POSTGRES_DB=resume_parser_db
+DATABASE_URL=postgresql://myuser:mypassword@db:5432/resume_parser_db
 
-# AI Service Settings
-GOOGLE_API_KEY=AIzaSy...your-key-here...
-
-# ... other variables ...
+REDIS_URL=redis://redis:6379/0
+GOOGLE_API_KEY=AIzaSy...your-key-here...  <-- PASTE KEY HERE
 ```
 Once you have saved your key in the .env file, you are ready to proceed to the final step (Step 4: Run the Application).
 
